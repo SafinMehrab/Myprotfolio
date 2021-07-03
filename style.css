@@ -19,6 +19,7 @@ h3{
 section{
 
     display: flex;
+    margin-bottom: 50px; 
 }
 .half-width{
 
@@ -43,4 +44,10 @@ section{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 
+}
+.Dream_Big{
+
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
