@@ -8,6 +8,11 @@ h1{
 
     font-size: 50px;
 }
+
+h2{
+
+    font-size: 200%;
+}
 .name-color{
 
     color: rgb(241, 170, 36);
@@ -16,7 +21,7 @@ h3{
     font-size: 20px;
 }
 
-section{
+.fexible_container{
 
     display: flex;
     margin-bottom: 50px; 
@@ -25,6 +30,7 @@ section{
 
     width: 50%;
     padding: 5%;
+    
 }
 .half-width img{
 
@@ -50,4 +56,43 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.half-width_exp{
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 5px;
+   
+    
+}
+.experience_area{
+
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60px;
+    
+}
+#dev1{
+
+    border-left: 6px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+
+#dev2{
+
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+
+    text-align: center;
+    margin-bottom: 10px;
 }
